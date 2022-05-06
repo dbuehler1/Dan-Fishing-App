@@ -90,7 +90,7 @@ class FishingProductsPage extends StatelessWidget {
                         Container(
                             child: Padding(
                               padding: EdgeInsets.all(8.0),
-                              child: Text(product.price.toString()),
+                              child: Text('\$' + product.price.toString()),
                             )),
 
                       ])
